@@ -1,0 +1,596 @@
+AAA (authentication, authorization, and accounting)�A security concept where a centralized platform verifies subject identification, ensures the subject is assigned relevant permissions, and then logs these actions to create an audit trail.
+ABAC (attribute-based access control)�An access control technique that evaluates a set of attributes that each subject possesses to determine if access should be granted.
+account policies�A set of rules governing user security information, such as password expiration and uniqueness, which can be set globally.
+ACL (Access Control List)�A collection of access control entries (ACEs) that determines which subjects (user accounts, host IP addresses, and so on) are allowed or denied access to the object and the privileges given (read only, read/write, and so on).
+active defense�The practice of responding to a threat by destroying or deceiving a threat actor's capabilities.
+adversarial AI�(adversarial artificial intelligence)�Using AI to identify vulnerabilities and attack vectors to circumvent security systems.
+AES (Advanced Encryption Standard)�A symmetric 128-, 192-, or 256-bit block cipher based on the Rijndael algorithm developed by Belgian cryptographers Joan Daemen and Vincent Rijmen and adopted by the U.S. government as its encryption standard to replace DES.
+Agile model (Agile)�A software development model that focuses on iterative and incremental development to account for evolving requirements and expectations.
+AH (authentication header)�An IPSec protocol that provides authentication for the origin of transmitted data as well as integrity and protection against replay attacks.
+air gap�A type of network isolation that physically separates a network from all other networks.
+AIS (Automated Indicator Sharing)�Threat intelligence data feed operated by the DHS.
+ALE (annual loss expectancy)�The total cost of a risk to an organization on an annual basis. This is determined by multiplying the SLE by the annual rate of occurrence (ARO).
+AP (access point)�A device that provides a connection between wireless devices and can connect to wired networks. Also known as wireless access point or WAP.
+API (application programming interface)�A library of programming utilities used, for example, to enable software developers to access functions of the TCP/IP network stack under a particular operating system.
+application aware firewall�A Layer 7 firewall technology that inspects packets at the Application layer of the OSI model.
+application firewall�Software designed to run on a server to protect a particular application such as a web server or SQL server.
+APT (advanced persistent threat)�An attacker's ability to obtain, maintain, and diversify access to network systems using exploits and malware.
+Arduino�Open-source platform producing programmable circuit boards for education and industrial prototyping.
+ARO (annual rate of occurrence)�In risk calculation, an expression of the probability/likelihood of a risk as the number of times per year a particular loss is expected to occur.
+ARP inspection�An optional security feature of a switch that prevents excessive ARP replies from flooding a network segment.
+ARP poisoning (ARP spoofing)�A network-based attack where an attacker with access to the target local network segment redirects an IP address to the MAC address of a computer that is not the intended recipient. This can be used to perform a variety of attacks, including DoS, spoofing, and Man-in-the-Middle.
+asymmetric algorithm (Public Key)�A cipher that uses public and private keys. The keys are mathematically linked, using either Rivel, Shamir, Adleman (RSA) or elliptic curve cryptography (ECC) algorithms, but the private key is not derivable from the public one. An asymmetric key cannot reverse the operation it performs, so the public key cannot decrypt what it has encrypted, for example. Also known as Elliptic Curve Cryptography or ECC.
+ATT&CK (Adversarial Tactics, Techniques, and Common Knowledge)�A knowledge base maintained by the MITRE Corporation for listing and explaining specific adversary tactics, techniques, and procedures.
+attack surface�The points at which a network or application receives external connections or inputs/outputs that are potential vectors to be exploited by a threat actor.
+attack vector�A specific path by which a threat actor gains unauthorized access to a system. Also known as vector.
+authenticator�A PNAC switch or router that activates EAPoL and passes a supplicant's authentication data to an authenticating server, such as a RADIUS server.
+automation�Using scripts and APIs to provision and deprovision systems without manual intervention.
+Autopsy�The Sleuth Kit is an open source collection of command line and programming libraries for disk imaging and file analysis. Autopsy is a graphical frontend for these tools and also provides a case management/workflow tool. Also known as Sleuth Kit.
+availability�The fundamental security goal of ensuring that computer systems operate continuously and that authorized persons can access data that they need.
+BAS (building automation system)�Components and protocols that facilitate the centralized configuration and monitoring of mechanical and electrical systems within offices and data centers.
+baseband radio�The chip and firmware in a smartphone that acts as a cellular modem.
+baseline configuration�A collection of security and configuration settings that are to be applied to a particular system or network in the organization.
+bash (Bourne again shell)�A command shell and scripting language for Unix-like systems.
+bastion host�A server typically found in a DMZ that is configured to provide a single service to reduce the possibility of compromise.
+behavioral analysis�A network monitoring system that detects changes in normal operating data sequences and identifies abnormal sequences. Also known as behavior-based detection.
+BIA (business impact analysis)�A systematic activity that identifies organizational risks and determines their effect on ongoing, mission critical operations.
+birthday attack�A type of password attack that exploits weaknesses in the mathematical algorithms used to encrypt passwords, in order to take advantage of the probability of different password inputs producing the same encrypted output.
+block cipher�A type of symmetric encryption that encrypts data one block at a time, often in 64-bit blocks. It is usually more secure, but is also slower, than stream ciphers.
+blockchain�A concept in which an expanding list of transactional records listed in a public ledger is secured using cryptography.
+blue team�The defensive team in a penetration test or incident response exercise.
+bluejacking�Sending an unsolicited message or picture message using a Bluetooth connection.
+bluesnarfing�A wireless attack where an attacker gains access to unauthorized information on a device using a Bluetooth connection.
+boot attestation�Report of boot state integrity data that is signed by a tamper-proof TPM key and reported to a network server.
+botnet�A set of hosts that has been infected by a control program called a bot that enables attackers to exploit the hosts to mount attacks. Also known as zombie.
+BPA (business partnership agreement)�Agreement by two companies to work together closely, such as the partner agreements that large IT companies set up with resellers and solution providers.
+BPDU guard (Bridge Protocol Data Unit guard)�Switch port security feature that disables the port if it receives BPDU notifications related to spanning tree. This is configured on access ports where there any BPDU frames are likely to be malicious.
+brute force attack�A type of password attack where an attacker uses an application to exhaustively try every possible alphanumeric combination to crack encrypted passwords.
+buffer overflow�An attack in which data goes past the boundary of the destination buffer and begins to corrupt adjacent memory. This can allow the attacker to crash the system or execute arbitrary code.
+bug bounty�Reward scheme operated by software and web services vendors for reporting vulnerabilities.
+BYOD (bring your own device)�Security framework and tools to facilitate use of personally-owned devices to access corporate networks and data.
+C&C (command and control)�An infrastructure of hosts and services with which attackers direct, distribute, and control malware over botnets. Also known as C2.
+CA (certificate authority)�A server that guarantees subject identities by issuing signed digital certificate wrappers for their public keys.
+cable lock�Devices can be physically secured against theft using cable ties and padlocks. Some systems also feature lockable faceplates, preventing access to the power switch and removable drives.
+CAC (common access card)�A smart card that provides certificate-based authentication and supports two-factor authentication. A CAC is produced for Department of Defense employees and contractors in response to a Homeland Security Directive.
+CAN bus (controller area network bus)�A serial network designed to allow communications between embedded programmable logic controllers.
+CAPTCHA (completely automated public turing test to tell computers and humans apart)�An image of text characters or audio of some speech that is difficult for a computer to interpret. CAPTCHAs are used for purposes such as preventing bots from creating accounts on web forums and social media sites to spam them.
+captive portal�A web page or website to which a client is redirected before being granted full network access.�
+capture the flag�Training event where learners must identify a token within a live network environment.
+card cloning/skimming�Duplicating a smart card by reading (skimming) the confidential data stored on it. Also known as skimming.
+carving�The process of extracting data from a computer when that data has no associated file system metadata.
+CASB (cloud access security broker)�Enterprise management software designed to mediate access to cloud services by users across all types of devices.
+cat command�Linux command to view and combine (concatenate) files.
+CBC (cipher block chaining)�An encryption mode of operation where an exclusive or (XOR) is applied to the first plaintext block
+CCMP (counter mode with cipher block chaining message authentication code protocol)�An encryption protocol used for wireless LANs that addresses the vulnerabilities of the WEP protocol.
+CE (cryptographic erase)�A method of sanitizing a self-encrypting drive by erasing the media encryption key.
+chain of custody�The record of evidence history from collection, to presentation in court, to disposal.
+change control�The process by which the need for change is recorded and approved.
+change management�The process through which changes to the configuration of information systems are implemented, as part of the organization's overall configuration management efforts.
+CHAP (Challenge Handshake Authentication Protocol)�Authentication scheme developed for dial-up networks that uses an encrypted three-way handshake to authenticate the client to the server. The challenge-response is repeated throughout the connection (though transparently to the user) to guard against replay attacks.
+checksum�The output of a hash function. chmod Linux command for managing file permissions.
+CIA triad (confidentiality, integrity, and availability)�The three principles of security control and management. Also known as the information security triad. or AIC triad.
+circuit-level stateful inspection firewall�A Layer 5 firewall technology that tracks the active state of a connection, and can make decisions based on the contents of network traffic as it relates to the state of the connection.
+CIS (Center for Internet Security)�A not-for-profit organization (founded partly by SANS). It publishes the well-known "Top 20 Critical Security Controls" (or system design recommendations).�
+clean desk policy�An organizational policy that mandates employee work areas be free from potentially sensitive information; sensitive documents must not be left out where unauthorized personnel might see them.
+cloud deployment model�Classifying the ownership and management of a cloud as public, private, community, or hybrid.
+Cloud Security Alliance�Industry body providing security guidance to CSPs, including enterprise reference architecture and security controls matrix.
+cloud service model�Classifying the provision of cloud services and the limit of the cloud service provider's responsibility as software, platform, infrastructure, and so on. clustering A load balancing technique where a group of servers are configured as a unit and work together to provide network services.
+CN (common name)�An X500 attribute expressing a host or user name, also used as the subject identifier for a digital certificate.
+COBO (corporate owned, business only)�Enterprise mobile device provisioning model where the device is the property of the organization and personal use is prohibited.
+code of conduct�Professional behavior depends on basic ethical standards, such as honesty and fairness. Some professions may have developed codes of ethics to cover difficult situations; some businesses may also have a code of ethics to communicate the values it expects its employees to practice. Also known as ethics.
+code reuse�Potentially unsecure programming practice of using code originally written for a different context.
+code signing�The method of using a digital signature to ensure the source and integrity of programming code.
+cold site�A predetermined alternate location where a network can be rebuilt after a disaster.
+collector�A network appliance that gathers or receives log and/or state data from other network systems.
+collision�In cryptography, the act of two different plaintext inputs producing the same exact ciphertext output.
+community cloud�A cloud that is deployed for shared use by cooperating tenants.
+compensating control�A security measure that takes on risk mitigation when a primary control fails or cannot completely meet expectations.
+confidentiality�The fundamental security goal of keeping information and communications private and protecting them from unauthorized access. containerization A type of virtualization applied by a host operating system to provision an isolated execution environment for an application.
+content filter�A software application or gateway that filters client requests for various types of internet content (web, FTP, IM, and so on).�
+context-aware authentication�An access control scheme that verifies an object's identity based on various environmental factors, like time, location, and behavior.
+continuous delivery�Software development method in which app and platform requirements are frequently tested and validated for immediate availability.
+continuous deployment�Software development method in which app and platform updates are committed to production rapidly.
+continuous integration�Software development method in which code updates are tested and committed to a development or build server/code repository rapidly.
+continuous monitoring�The technique of constantly evaluating an environment for changes so that new risks may be more quickly detected and business operations improved upon. Also known as continuous security monitoring or CSM.
+control risk�Risk that arises when a control does not provide the level of mitigation that was expected.
+COPE (corporate owned, personally enabled)�Enterprise mobile device provisioning model where the device remains the property of the organization, but certain personal use, such as private email, social networking, and web browsing, is permitted.
+corrective control�A type of security control that acts after an incident to eliminate or minimize its impact. correlation Function of log analysis that links log and state data to identify a pattern that should be logged or alerted as an event.
+counter mode (CTM)�An encryption mode of operation where a numerical counter value is used to create a constantly changing IV. Also referred to as CTM (counter mode) and CM (counter mode).
+credential stuffing�Brute force attack in which stolen user account names and passwords are tested against multiple websites.
+CRL (certificate revocation list)�A list of certificates that were revoked before their expiration date.
+crossover error rate�Biometric evaluation factor expressing the point at which FAR and FRR meet, with a low value indicating better performance.
+CSP (cloud service provider)�A vendor offering public cloud service models, such as PaaS, IaaS, or SaaS.
+CSR (certificate signing request)�A Base64 ASCII file that a subject sends to a CA to get a certificate.
+CTI (cyber threat intelligence)�The process of investigating, collecting, analyzing, and disseminating information about emerging threats and threat sources. Also known as threat intelligence.
+Cuckoo�Implementation of a sandbox for malware analysis.
+curl command�Utility for command-line manipulation of URL-based protocol requests.
+CVE (Common Vulnerabilities and Exposures)�Scheme for identifying vulnerabilities developed by MITRE and adopted by NIST.
+CVSS (Common Vulnerability Scoring System)�A risk management approach to quantifying vulnerability data and then taking into account the degree of risk to different types of systems or information.
+CYOD (choose your own device)�Enterprise mobile device provisioning model where employees are offered a selection of corporate devices for work and, optionally, private use.
+DAC (discretionary access control)�Access control model where each resource is protected by an Access Control List (ACL) managed by the resource's owner (or owners).
+data at rest�Information that is primarily stored on specific media, rather than moving from one medium to another.
+data breach�When confidential or private data is read, copied, or changed without authorization. Data breach events may have notification and reporting requirements.
+data controller�In privacy regulations, the entity that determines why and how personal data is collected, stored, and used.
+data custodian�An individual who is responsible for managing the system on which data assets are stored, including being responsible for enforcing access control, encryption, and backup/recovery measures.
+data exfiltration�The process by which an attacker takes data that is stored inside of a private network and moves it to an external network.
+data exposure�A software vulnerability where an attacker is able to circumvent access controls and retrieve confidential or sensitive data from the file system or database.
+data governance�The overall management of the availability, usability, and security of the information used in an organization.
+data in processing�Information that is present in the volatile memory of a host, such as system memory or cache.
+data in transit�Information that is being transmitted between two hosts, such as over a private network or the Internet. Also known as data in motion.
+data masking�A deidentification method where generic or placeholder labels are substituted for real data while preserving the structure or format of the original data.
+data minimization�In data protection, the principle that only necessary and sufficient personal information can be collected and processed for the stated purpose.
+data owner�A senior (executive) role with ultimate responsibility for maintaining the confidentiality, integrity, and availability of an information asset.
+data processor�In privacy regulations, an entity trusted with a copy of personal data to perform storage and/or analysis on behalf of the data collector.
+data remnant�Leftover information on a storage medium even after basic attempts have been made to remove that data. Also known as remnant.
+data sovereignty�In data protection, the principle that countries and states may impose individual requirements on data collected or stored within their jurisdiction.
+data steward�An individual who is primarily responsible for data quality, ensuring data is labeled and identified with appropriate metadata and that data is collected and stored in a format and with values that comply with applicable laws and regulations.
+DCHP snooping�A configuration option that enables a switch to inspect DHCP traffic to prevent MAC spoofing.
+dd command�Linux command that makes a bit-by-bit copy of an input file, typically used for disk imaging.
+DDoS attack (distributed denial of service attack)�An attack that uses multiple compromised hosts (a botnet) to overwhelm a service with request or response traffic.
+dead code�Code in an application that is redundant because it will never be called within the logic of the program flow.
+deauthentication/disassociation�Spoofing frames to disconnect a wireless station to try to obtain authentication data to crack.
+deception and disruption�Cybersecurity resilience tools and techniques to increase the cost of attack planning for the threat actor.
+default account�Default administrative and guest accounts configured on servers and network devices are possible points of unauthorized access.
+defense in depth�A security strategy that positions the layers of network security as network traffic roadblocks; each layer is intended to slow an attack's progress, rather than eliminating it outright.
+degaussing�The process of rendering a storage drive inoperable and its data unrecoverable by eliminating the drive's magnetic charge.
+deidentification�In data protection, methods and technologies that remove identifying information from data before it is distributed.
+deprovisioning�The process of removing an application from packages or instances.
+DER (distinguished encoding rules)�The binary format used to structure the information in a digital certificate.
+detective control�A type of security control that acts during an incident to identify or record that it is happening.
+deterrent control�A type of security control that discourages intrusion attempts.
+DH (Diffie-Hellman)�A cryptographic technique that provides secure key exchange.
+DHCP spoofing (Dynamic Host Configuration Protocol spoofing)�An attack in which an attacker responds to a client requesting address assignment from a DHCP server.
+Diamond Model�A framework for analyzing cybersecurity incidents.
+dictionary attack�A type of password attack that compares encrypted passwords against a predetermined list of possible password values.
+differential backup�A backup type in which all selected files that have changed since the last full backup are backed up.
+DiffServ�The Differentiated Services Code Point (DSCP) field is used to indicate a priority value for a layer 3 (IP) packet to facilitate Quality of Service (QoS) or Class of Service (CoS) scheduling.
+digital signature�A message digest encrypted using the sender's private key that is appended to a message to authenticate the sender and prove message integrity.
+directory service�A network service that stores identity information about all the objects in a particular network, including users, groups, servers, client computers, and printers.
+directory traversal�An application attack that allows access to commands, files, and directories that may or may not be connected to the web document root directory.
+diversity�Cybersecurity resilience strategy that increases attack costs by provisioning multiple types of controls, technologies, vendors, and crypto implementations.
+DLP (data loss/leak prevention)�A software solution that detects and prevents sensitive information from being stored on unauthorized systems or transmitted over unauthorized networks.
+DMZ (demilitarized zone)�A segment isolated from the rest of a private network by one or more firewalls that accepts connections from the Internet over designated ports.
+DNAT (destination network address translation)�NAT service where private internal addresses are mapped to one or more public addresses to facilitate Internet connectivity for hosts on a local network via a router.
+DNS hijacking (Domain Name System hijacking)�An attack in which an attacker modifies a computer's DNS configurations to point to a malicious DNS server.
+DNS poisoning (Domain Name System poisoning)�A network-based attack where an attacker exploits the traditionally open nature of the DNS system to redirect a domain name to an IP address of the attacker's choosing.
+DNSSEC (Domain Name System Security Extensions)�A security protocol that provides authentication of DNS data and upholds DNS data integrity.
+domain hijacking�A type of hijacking attack where the attacker steals a domain name by altering its registration information and then transferring the domain name to another entity. Sometimes referred to as brandjacking.
+DoS attack (denial of service attack)�Any type of physical, application, or network attack that affects the availability of a managed resource.
+downgrade attack�A cryptographic attack where the attacker exploits the need for backward compatibility to force a computer system to abandon the use of encrypted messages in favor of plaintext messages.
+DPO (data privacy officer)�Institutional data governance role with responsibility for compliant collection and processing of personal and sensitive data.
+DRP (disaster recovery plan)�A documented and resourced plan showing actions and responsibilities to be used in response to critical incidents.�
+DSA (Digital Signature Algorithm)�public key encryption standard used for digital signatures that provides authentication and integrity verification for messages.
+dump file�File containing data captured from system memory.
+dumpster diving (Dumpster)�The social engineering technique of discovering things about an organization (or person) based on what it throws away.
+EAP (Extensible Authentication Protocol)�Framework for negotiating authentication methods that enables systems to use hardware-based identifiers, such as fingerprint scanners or smart card readers, for authentication.
+EAP-FAST (EAP Flexible Authentication via Secure Tunneling)�An EAP method that is expected to address the shortcomings of LEAP.
+EAPoL (Extensible Authentication Protocol over LAN)�A port-based network access control (PNAC) mechanism that allows the use of EAP authentication when a host connects to an Ethernet switch.
+EAP-TLS (EAP Transport Layer Security)�An EAP method that requires server-side and client-side certificates for authentication using SSL/ TLS.
+EAP-TTLS (EAP Tunneled Transport Layer Security)�An EAP method that enables a client and server to establish a secure connection without mandating a client-side certificate.
+east-west traffic�Design paradigm accounting for the fact that data center traffic between servers is greater than that passing in and out (north-south).
+ECC (elliptic curve cryptography)�An asymmetric encryption algorithm that leverages the algebraic structures of elliptic curves over finite fields to derive public/private key pairs.
+edge computing�Provisioning processing resource close to the network edge of IoT devices to reduce latency.
+e-discovery�Procedures and tools to collect, preserve, and analyze digital evidence.
+EDR (endpoint detection and response)�A software agent that collects system data and logs for analysis by a monitoring system to provide early detection of threats.
+EF (exposure factor)�In risk calculation, the percentage of an asset's value that would be lost during a security incident or disaster scenario.
+elasticity�The property by which a computing environment can instantly react to both increasing and decreasing demands in workload.
+entropy�A measure of disorder. Cryptographic systems should exhibit high entropy to better resist brute force attacks.
+EOL (end of life)�Product life cycle phase where sales are discontinued and support options reduced over time.
+EOSL (end of service life)�Product life cycle phase where support is no longer available from the vendor.
+EPP (endpoint protection platform)�A software agent and monitoring system that performs multiple security tasks.
+ERM (enterprise risk management)�The comprehensive process of evaluating, measuring, and mitigating the many risks that pervade an organization.
+error handling�Coding methods to anticipate and deal with exceptions thrown during execution of a process.
+escrow�In key management, the storage of a backup key with a third party.
+ESP (Encapsulating Security Protocol)�IPSec sub-protocol that enables encryption and authentication of the header and payload of a data packet.
+evil twin�A wireless access point that deceives users into believing that it is a legitimate network access point.
+execution control�The process of determining what additional software may be installed on a client or server beyond its baseline to prevent the use of unauthorized software.
+exploitation framework�Suite of tools designed to automate delivery of exploits against common software and firmware vulnerabilities.
+extranet�A private network that provides some access to outside parties, particularly vendors, partners, and select customers.
+failover�A technique that ensures a redundant component, device, or application can quickly and efficiently take over the functionality of an asset that has failed.
+fake telemetry�Deception strategy that returns spoofed data in response to network probes.
+false negative�In security scanning, a case that is not reported when it should be.
+false positive�In security scanning, a case that is reported when it should not be.
+FAR (false acceptance rate)�Biometric assessment metric that measures the number of unauthorized users who are mistakenly allowed access.
+Faraday cage�A wire mesh container that blocks external electromagnetic fields from entering into the container.
+FC (Fibre Channel)�High speed network communications protocol used to implement SANs.
+FDE (full disk encryption)�Encryption of all data on a disk (including system files, temporary files, and the pagefile) can be accomplished via a supported OS, third-party software, or at the controller level by the disk device itself.
+federation�A process that provides a shared login capability across multiple systems and enterprises. It essentially connects the identity management services of multiple systems.
+FIM (file integrity monitoring)�A type of software that reviews system files to ensure that they have not been tampered with.
+fingerprint scanner�Biometric authentication device that can produce a template signature of a user's fingerprint then subsequently compare the template to the digit submitted for authentication.
+first responder�The first experienced person or team to arrive at the scene of an incident.
+fog computing�Provisioning processing resource between the network edge of IoT devices and the data center to reduce latency.
+FPGA (field programmable gate array)�A processor that can be programmed to perform a specific function by a customer rather than at the time of manufacture.
+FRR (false rejection rate)�Biometric assessment metric that measures the number of valid subjects who are denied access.
+FTK (Forensic Toolkit)�A commercial digital forensics investigation management and utilities suite, published by AccessData.
+FTPS�A type of FTP using TLS for confidentiality.
+full backup�A backup type in which all selected files, regardless of prior state, are backed up. full tunnel VPN configuration where all traffic is routed via the VPN gateway.
+fuzzing�A dynamic code analysis technique that involves sending a running application random and unusual input so as to evaluate how the app responds.
+gait analysis�Biometric mechanism that identifies a subject based on movement pattern.
+GCM (Galois/Counter Mode)�A mode of block chained encryption that provides message authenticity for each block.
+GDPR (General Data Protection Regulation)�Provisions and requirements protecting the personal data of European Union (EU) citizens. Transfers of personal data outside the EU Single Market are restricted unless protected by like-for-like regulations, such as the US's Privacy Shield requirements.
+geofencing�The practice of creating a virtual boundary based on real-world geography.
+geolocation�The identification or estimation of the physical location of an object, such as a radar source, mobile phone, or Internet-connected computing device.
+GPO (Group Policy Object)�On a Windows domain, a way to deploy per-user and per-computer settings such as password policy, account restrictions, firewall status, and so on.
+grep command�Linux command for searching and filtering input. This can be used as a file search tool when combined with ls.
+group account�A group account is a collection of user accounts that are useful when establishing file permissions and user rights because when many individuals need the same level of access, a group could be established containing all the relevant users.
+HA (high availability)�The property that defines how closely systems approach the goal of providing data availability 100 percent of the time while maintaining a high level of system performance.
+hardening�The process of making a host or app configuration secure by reducing its attack surface, through running only necessary services, installing monitoring software to protect against malware and intrusions, and establishing a maintenance schedule to ensure the system is patched to be secure against software exploits.
+hashcat�Command-line tool used to perform brute force and dictionary attacks against password hashes.
+hashing�A function that converts an arbitrary length string input to a fixed length string output. A cryptographic hash function does this in a way that reduces the chance of collisions, where two different inputs produce the same output. Also known as message digest.
+head command�Linux utility for showing the first lines in a file.
+heat map�In a Wi-Fi site survey, a diagram showing signal strength at different locations.
+heuristic analysis (heuristic)�A method that uses feature comparisons and likenesses rather than specific signature matching to identify whether the target of observation is malicious.
+HMAC (hash-based message authentication code)�A method used to verify both the integrity and authenticity of a message by combining a cryptographic hash of the message with a secret key.
+homomorphic encryption�Method that allows computation of certain fields in a dataset without decrypting it.
+honeypot (honeynet)�A host, network, or file set up with the purpose of luring attackers away from assets of actual value and/or discovering attack strategies and weaknesses in the security configuration. Also known as honeyfile.
+horizontal privilege escalation�When a user accesses or modifies specific resources that they are not entitled to.
+host-based firewall�A software application running on a single host and designed to protect only that host. Also known as personal firewall.
+hot site�A fully configured alternate network that can be online quickly after a disaster.
+hot/cold aisle�Arrangement of server racks to maximize the efficiency of cooling systems. Also known as cold/hot aisle.
+HOTP (HMAC-based One-time Password)�An algorithm that generates a one-time password using a hash-based authentication code to verify the authenticity of the message.
+HSM (hardware security module)�An appliance for generating and storing cryptographic keys. This sort of solution may be less susceptible to tampering and insider threats than software-based storage.
+HTML5 VPN�Using features of HTML5 to implement remote desktop/VPN connections via browser software (clientless).
+hybrid cloud�A cloud deployment that uses both private and public elements.
+IaaS (Infrastructure as a Service)�A computing method that uses the cloud to provide any or all infrastructure needs.
+IaC (infrastructure as code)�A provisioning architecture in which deployment of resources is performed by scripted automation and orchestration.
+IAM (identity and access management)�A security process that provides identification, authentication, and authorization mechanisms for users, computers, and other entities to work with organizational assets like networks, operating systems, and applications.
+ICS (industrial control system)�A network managing embedded devices (computer systems that are designed to perform a specific, dedicated function).
+identity fraud�The invention of fake personal information or the theft and misuse of an individual's personal information.
+IdP (identity provider)�In a federated network, the service that holds the user account and performs authentication.
+IDS (intrusion detection system)�A software and/or hardware system that scans, audits, and monitors the security infrastructure for signs of attacks in progress.
+IEEE 802.1X�A standard for encapsulating EAP communications over a LAN (EAPoL) to implement port-based authentication.
+IKE (Internet Key Exchange)�Framework for creating a Security Association (SA) used with IPSec. An SA establishes that two hosts trust one another (authenticate) and agree secure protocols and cipher suites to use to exchange data.
+implicit deny�A basic principle of security stating that unless something has explicitly been granted access, it should be denied access.
+incremental backup�A backup type in which all selected files that have changed since the last full or incremental backup (whichever was most recent) are backed up.
+industrial camouflage�Methods of disguising the nature and purpose of buildings or parts of buildings.
+inherent risk�Risk that an event will pose if no controls are put in place to mitigate it.
+input validation�Any technique used to ensure that the data entered into a field or variable in an application is handled appropriately by that application.
+insecure object reference�Coding vulnerability where unvalidated input is used to select a resource object, such as a file or database.
+insider threat�A type of threat actor who is assigned privileges on the system that cause an intentional or unintentional incident.
+integer overflow�An attack in which a computed result is too large to fit in its assigned storage space, which may lead to crashing or data corruption, and may trigger a buffer overflow. integrity The fundamental security goal of keeping organizational information accurate, free of errors, and without unauthorized modifications.
+intelligence fusion�In threat hunting, using sources of threat intelligence data to automate detection of adversary IoCs and TTPs.
+intranet�A private network that is only accessible by the organization's own personnel.
+IoC (indicator of compromise)�A sign that an asset or network has been attacked or is currently under attack.
+IPAM (IP address management)�Software consolidating management of multiple DHCP and DNS services to provide oversight into IP address allocation across an enterprise network.
+IPFIX (IP Flow Information Export)�Standards-based version of the Netflow framework.
+IPS (intrusion prevention system)�An IDS that can actively block attacks.
+IPSec�(Internet Protocol Security)�A set of open, non-proprietary standards that are used to secure data through authentication and encryption as the data travels across the network or the Internet.
+IRP (incident response plan)�Specific procedures that must be performed if a certain type of event is detected or reported.
+ISA (interconnection security agreement)�Any federal agency interconnecting its IT system to a third-party must create an ISA to govern the relationship. An ISA sets out a security risk awareness process and commit the agency and supplier to implementing security controls.
+ISAC (Information Sharing and Analysis Center)�Not-for-profit group set up to share sector-specific threat intelligence and security best practices amongst its members.
+ISO/IEC 27K (International Organization for Standardization 27000 Series)�A comprehensive set of standards for information security, including best practices for security and risk management, compliance, and technical implementation.
+ISO/IEC 31K (International Organization for Standardization 31000 Series)�A comprehensive set of standards for enterprise risk management.
+IV attack (Initialization Vector Attack)�A wireless attack where the attacker is able to predict or control the IV of an encryption process, thus giving the attacker access to view the encrypted data that is supposed to be hidden from everyone else except the user or network.
+jamming�An attack in which radio waves disrupt 802.11 wireless signals.
+job rotation�The policy of preventing any one individual performing the same role or tasks for too long. This deters fraud and provides better oversight of the person's duties.
+jump server�A hardened server that provides access to other hosts. Also known as jumpbox.
+Kerberos�A single sign-on authentication and authorization service that is based on a time-sensitive ticket-granting system.
+keylogger�Malicious software or hardware that can record user keystrokes.
+kill chain�A model developed by Lockheed Martin that describes the stages by which a threat actor progresses a network intrusion.
+L2TP (Layer 2 Tunneling Protocol)�VPN protocol for tunneling PPP sessions across a variety of network protocols such as IP, Frame Relay, or ATM.
+lateral movement�The process by which an attacker is able to move from one part of a computing environment to another.
+LDAP (Lightweight Directory Access Protocol)�A network protocol used to access network directory databases, which store information about authorized users and their privileges, as well as other organizational information.
+LDAP injection�An application attack that targets web-based applications by fabricating LDAP statements that are typically created by user input.
+LDAPS (Lightweight Directory Access Protocol Secure)�A method of implementing LDAP using SSL/TLS encryption.
+LEAP (Lightweight Extensible Authentication Protocol)�Cisco Systems' proprietary EAP implementation.
+least privilege�A basic principle of security stating that something should be allocated the minimum necessary rights, privileges, or information to perform its role.
+lightweight cryptography�Cryptographic algorithms with reduced compute requirements that are suitable for use in resource-constrained environments, such as battery-powered devices.
+LLR (lessons learned report)�An analysis of events that can provide insight into how to improve response processes in the future. Also known as after action report or AAR.
+load balancer�A type of switch or router that distributes client requests between different resources, such as communications links or similarly-configured servers. This provides fault tolerance and improves throughput.
+logger command�Linux utility that writes data to the system log.
+logic bomb�A malicious program or script that is set to run under particular circumstances or in response to a defined event.
+loop protection�If broadcast traffic is allowed to continually loop around a network, the number of broadcast packets increases exponentially, crashing the network. Loop protection in switches (such as Spanning Tree Protocol), and in routers (Time To Live for instance) is designed to prevent this.
+MaaS (monitoring as a service)�Cloud service providing ongoing security and availability monitoring of on-premises and/or cloud-based hosts and services.
+MAC (Mandatory Access Control)�Access control model where resources are protected by inflexible, system defined rules. Resources (objects) and users (subjects) are allocated a clearance level (or label).�
+MAC (Message Authentication Code)�Proving the integrity and authenticity of a message by combining its hash with a shared secret.
+MAC cloning (Media Access Control cloning)�An attack in which an attacker falsifies the factory-assigned MAC address of a device's network interface. Also known as MAC spoofing.
+MAC filtering (Media Access Control filtering)�Applying an access control list to a switch or access point so that only clients with approved MAC addresses can connect to it.
+MAC flooding�A variation of an ARP poisoning attack where a switch's cache table is inundated with frames from random source MAC addresses.
+MAM (mobile application management)�Enterprise management function that enables control over apps and storage for mobile devices and other endpoints.
+managerial control�A category of security control that gives oversight of the information system.
+mandatory vacations�The principle that states when and how long an employee must take time off from work so that their activities may be subjected to a security review.
+maneuver�In threat hunting, the concept that threat actor and defender may use deception or counterattacking strategies to gain positional advantage.
+mantrap (access control vestibule)�A secure entry system with two gateways, only one of which is open at any one time.
+MD5 (Message Digest Algorithm v5)�A cryptographic hash function producing a 128-bit output.
+MDM (mobile device management)�The process and supporting technologies for tracking, controlling, and securing the organization's mobile infrastructure.
+measured boot�A UEFI feature that gathers secure metrics to validate the boot process in an attestation report.
+MEF (mission essential function)�A business or organizational activity that is too critical to be deferred for anything more than a few hours, if at all.
+memdump command�Linux utility developed as part of the Coroner's Toolkit to dump system memory data to a file.
+memory leak�A software vulnerability that can occur when software does not release allocated memory when it is done using it, potentially leading to system instability.
+metadata�Information stored or recorded as a property of an object, state of a system, or transaction.
+MFA (multifactor authentication)�An authentication scheme that requires the user to present at least two different factors as credentials, from something you know, something you have, something you are, something you do, and somewhere you are. Specifying two factors is known as 2FA.
+microservices�A software architecture where components of the solution are conceived as highly decoupled services not dependent on a single platform type or technology.
+mirroring�A type of RAID that using two hard disks, providing the simplest way of protecting a single disk against failure. Data is written to both disks and can be read from either disk.
+MitB attack (Man-in-the-Browser attack)�An attack when the web browser is compromised by installing malicious plug-ins or scripts, or intercepting API calls between the browser process and DLLs.
+MitM attack (Man-in-the-Middle attack)�A form of eavesdropping where the attacker makes an independent connection between two victims and steals information to use fraudulently.
+MMS (multimedia messaging service)�Extension to SMS allowing digital data (picture, video, or audio) to be sent over a cellular data connection.
+mode of operation�Implementation of a block symmetric cipher, with some modes allowing secure encryption of a stream of data, with or without authentication for each block.
+MoU (memorandum of understanding)�Usually a preliminary or exploratory agreement to express an intent to work together that is not legally binding and does not involve the exchange of money.
+MPLS (Multiprotocol Label Switching)�Developed by Cisco from ATM as a means of providing traffic engineering (congestion control), Class of Service, and Quality of Service within a packet switched, rather than circuit switched, network.
+MSA (measurement systems analysis)�Evaluates the data collection and statistical methods used by a quality management process to ensure they are robust.
+MSSP (managed security service provider)�Third-party provision of security configuration and monitoring as an outsourced service.
+MTBF (mean time between failures)�The rating on a device or component that predicts the expected time between failures.
+MTD (maximum tolerable downtime)�The longest period of time a business can be inoperable without causing irrevocable business failure.
+MTTF (mean time to failure)�The average time a device or component is expected to be in operation.
+MTTR (mean time to repair/replace/recover)�The average time taken for a device or component to be repaired, replaced, or otherwise recover from a failure.
+multi-cloud�A cloud deployment model where the cloud consumer uses multiple public cloud services.
+multipath�Overprovisioning controllers and cabling so that a host has failover connections to storage media.
+NAC (network access control)�A general term for the collected protocols, policies, and hardware that authenticate and authorize access to a network at the device level.
+narrow-band�Low-power cellular networks designed to provide data connectivity to IoT devices.
+NAT (network address translation)�A routing mechanism that conceals internal addressing schemes from the public Internet by translating between a single public address on the external side of a router and private, non-routable addresses internally.
+ncat�Utility for reading and writing raw data over a network connection. Also known as netcat.
+NDA (non-disclosure agreement)�An agreement that stipulates that entities will not share confidential information, knowledge, or materials with unauthorized third parties.
+Nessus�One of the best-known commercial vulnerability scanners, produced by Tenable Network Security. Also known as Tenable.
+Netflow�A Cisco-developed means of reporting network flow information to a structured database. NetFlow allows better understanding of IP traffic flows as used by different network applications and hosts.
+NFC (Near Field Communication)�A standard for peer-to-peer (2-way) radio communications over very short (around 4") distances, facilitating contactless payment and similar technologies. NFC is based on RFID.
+NFV (network functions virtualization)�Provisioning virtual network appliances, such as switches, routers, and firewalls, via VMs and containers.
+NGFW (next generation firewall)�Advances in firewall technology, from app awareness, user-based filtering, and intrusion prevention to cloud inspection. Also known as layer 7 firewall.
+Nmap�Versatile port scanner used for topology, host, service, and OS discovery and enumeration.
+nonce�An arbitrary number used only once in a cryptographic communication, often to prevent replay attacks.
+non-repudiation�The security goal of ensuring that the party that sent a transmission or created data remains associated with that data and cannot deny sending or creating that data.
+normalization�A routine that applies a common consistent format to incoming data so that it can be processed safely. Normalization is referred to in the context of log collection and software coding.
+NTLM authentication (NT LAN Manager authentication)�A challenge-response authentication protocol created by Microsoft for use in its products.
+nxlog�Software optimized for multi-platform log collection and aggregation.
+OATH (Initiative for Open Authentication)�An industry body comprising the main PKI providers, such as Verisign and Entrust, that was established with the aim of developing an open, strong authentication framework.
+OAuth (Open Authorization)�Standard for federated identity management, allowing resource servers or consumer sites to work with user accounts created and managed on a separate identity provider.
+obfuscation�A technique that essentially "hides" or "camouflages" code or other information so that it is harder to read by unauthorized users.
+OCSP (online certificate status protocol)�Allows clients to request the status of a digital certificate, to check whether it is revoked.
+offboarding�The process of ensuring that all HR and other requirements are covered when an employee leaves an organization. Also known as exit interview.
+offline CA (offline certificate authority)�In PKI, a CA (typically the root CA) that has been disconnected from the network to protect it from compromise.
+OICD (OpenID Connect)�An authentication layer that sits on top of the OAuth 2.0 authorization protocol.
+OID (object identifier)�Numeric schema used for attributes of digital certificates. onboarding The process of bringing in a new employee, contractor, or supplier.
+OOB (out-of-band management)�Accessing the administrative interface of a network appliance using a separate network from the usual data network. This could use a separate VLAN or a different kind of link, such as a dial-up modem.
+Opal�Standards for implementing device encryption on storage devices. operational control A category of security control that is implemented by people.
+orchestration�The automation of multiple steps in a deployment process. order of volatility The order in which volatile data should be recovered from various storage locations and devices after a security incident occurs.
+OSINT (open-source intelligence)�Publicly available information plus the tools used to aggregate and search it.
+OT (operational technology)�A communications network designed to implement an industrial control system rather than data networking.
+OTA (over the air)�A firmware update delivered on a cellular data connection. output encoding Coding methods to sanitize output created from user input.
+OWASP (Open Web Application Security Project)�A charity and community publishing a number of secure application development resources.
+P12 (Public Key Cryptography Standard #12)�Format that allows a private key to be exported along with its digital certificate.
+P7B�File format for transmitting a chain of digital certificates, using PKCS#7.
+PaaS (Platform as a Service)�A computing method that uses the cloud to provide any platform-type services.
+PAM (pluggable authentication module)�Framework for implementing authentication providers in Linux.
+passive scan�An enumeration or vulnerability scan that analyzes only intercepted network traffic rather than sending probes to a target. More generally, passive reconnaissance techniques are those that do not require direct interaction with the target.
+PAT (port address translation)�Maps private host IP addresses onto a single public IP address. Each host is tracked by assigning it a random high TCP port for communications. Also known as network address port translation (NAPT) or NAT overloading.
+patch management�Identifying, testing, and deploying OS and application updates. Patches are often classified as critical, security-critical, recommended, and optional.
+PCI DSS (Payment Card Industry Data Security Standard)�Information security standard for organizations that process credit or bank card payments.
+PDU (power distribution unit)�Advanced strip socket that provides filtered output voltage. A managed unit supports remote administration.
+PEAP (Protected Extensible Authentication Protocol)�EAP implementation that uses a server-side certificate to create a secure tunnel for user authentication, referred to as the inner method.
+PEM (privacy-enhanced mail)�Base64 encoding scheme used to store certificate and key data as ASCII text.
+penetration testing�A test that uses active tools and security utilities to evaluate security by simulating an attack on a system. A pen test will verify that a threat exists, then will actively test and bypass security controls, and will finally exploit vulnerabilities on the system. Also known as pentest.
+percent encoding�Mechanism for encoding characters as hexadecimal values delimited by the percent sign.
+persistence (load balancing)�In load balancing, the configuration option that enables a client to maintain a connection with a load-balanced server over the duration of the session. Also referred to as sticky sessions.
+persistence�In cybersecurity, the ability of a threat actor to maintain covert access to a target host or network.
+PFS (perfect forward secrecy)�A characteristic of transport encryption that ensures if a key is compromised the compromise will only affect a single session and not facilitate recovery of plaintext data from other sessions.
+PFX (personal information exchange)�Windows file format for storing a private key and certificate data. The file can be password-protected.
+pharming�An impersonation attack in which a request for a website, typically an e-commerce site, is redirected to a similar-looking, but fake, website.
+PHI (protected/personal health information)�Information that identifies someone as the subject of medical and insurance records, plus associated hospital and laboratory test results.
+phishing�A type of email-based social engineering attack, in which the attacker sends email from a supposedly reputable source, such as a bank, to try to elicit private information from the victim.
+physical control�A type of security control that acts against in-person intrusion attempts.
+PII (personally identifiable information)�Data that can be used to identify or contact an individual (or in the case of identity theft, to impersonate them).
+pinning�A deprecated method of trusting digital certificates that bypasses the CA hierarchy and chain of trust to minimize man-in-the-middle attacks.
+PIV card (personal identity verification card)�A smart card that meets the standards for FIPS 201, in that it is resistant to tampering and provides quick electronic authentication of the card's owner.
+PKCS (public key cryptography standards)�Series of standards defining the use of certificate authorities and digital certificates.
+PKI (public key infrastructure)�Framework of certificate authorities, digital certificates, software, services, and other cryptographic components deployed for the purpose of validating subject identities.
+playbook�A checklist of actions to perform to detect and respond to a specific type of incident PLC (programmable logic controller) A type of computer designed for deployment in an industrial or outdoor setting that can automate and monitor mechanical systems.
+PNAC (port-based network access control)�A switch (or router) that performs some sort of authentication of the attached device before activating the port.
+pointer dereferencing�A software vulnerability that can occur when code attempts to read a memory location specified by a pointer, but the memory location is null. Also known as dereferencing.
+Point-to-Point/Point-to Multipoint Topology�A point-to-point topology is one where two nodes have a dedicated connection to one another. In a point-to-multipoint topology, a central node mediates links between remote nodes. Also known as Point-to-point.
+port forwarding�A process in which a router takes requests from the Internet for a particular application (such as HTTP) and sends them to a designated host on the LAN. Also known as destination network address translation or DNAT.
+port mirroring�Copying ingress and/or egress communications from one or more switch ports to another port. This is used to monitor communications passing over the switch. Also known as switched port analyzer or SPAN.
+port security�Preventing a device attached to a switch port from communicating on the network unless it matches a given MAC address or other protection profile.
+post-quantum�Anticipating challenges to current cryptographic implementations and general security issues in a world where threat actors have access to significant quantum processing capability.
+PowerShell�A command shell and scripting language built on the .NET Framework.
+PPP (Point to Point Protocol)�Dial-up protocol working at layer 2 (Data Link) used to connect devices remotely to networks.�
+PPTP (Point-to-Point Tunneling Protocol)�Developed by Cisco and Microsoft to support VPNs over PPP and TCP/IP. PPTP is highly vulnerable to password cracking attacks and considered obsolete.
+private cloud�A cloud that is deployed for use by a single entity.
+private key�In asymmetric encryption, the private key is known only to the holder and is linked to, but not derivable from, a public key distributed to those with which the holder wants to communicate securely. A private key can be used to encrypt data that can be decrypted by the linked public key or vice versa.
+privilege access management�The use of authentication and authorization mechanisms to provide an administrator with centralized or decentralized control of user and group role-based privilege management.
+privilege escalation�The practice of exploiting flaws in an operating system or other application to gain a greater level of access than was intended for the user or application.
+provenance�In digital forensics, being able to trace the source of evidence to a crime scene and show that it has not been tampered with.
+proxy server�A server that mediates the communications between a client and another server. It can filter and often modify communications, as well as provide caching services to improve performance. Also known as forward proxy.
+pseudo-anonymization�Removing personal information from a data set to make identification of individuals difficult, even if the data set is combined with other sources.
+PSK (pre-shared key)�Passphrase-based mechanism to allow group authentication to a wireless network. The passphrase is used to derive an encryption key.
+PtH attack (pass the hash attack)�A network-based attack where the attacker steals hashed user credentials and uses them as-is to try to authenticate to the same network the hashed credentials originated on.
+public cloud�A cloud that is deployed for shared use by multiple independent tenants.
+public key�During asymmetric encryption, this key is freely distributed and can be used to perform the reverse encryption or decryption operation of the linked private key in the pair.
+PUP (potentially unwanted program)�Software that cannot definitively be classed as malicious, but may not have been chosen by or wanted by the user.
+purple team�A mode of penetration testing where red and blue teams share information and collaborate throughout the engagement. purpose limitation In data protection, the principle that personal information can be collected and processed only for a stated purpose to which the subject has consented.
+Python�High-level programming language that is widely used for automation.
+QA (quality assurance)�Policies, procedures, and tools designed to ensure defect-free development and delivery.
+QoS (quality of service)�Systems that differentiate data passing over the network that can reserve bandwidth for particular applications. A system that cannot guarantee a level of available bandwidth is often described as Class of Service (CoS). Also known as CoS.
+qualitative analysis�A risk analysis method that uses opinions and reasoning to measure the likelihood and impact of risk.
+quantitative analysis�A risk analysis method that is based on assigning concrete values to factors.
+quantum cryptography�Using quantum computing for cryptographic tasks, such as distributing keys or cracking (traditional) cryptographic systems. Quantum computing works on the principle that its units (qubits) have more properties than the bits used in "classical" computers, notably (and very crudely) that a qubit can have a probability of being 1 or 0 and that inspecting the value of one qubit can instantly determine that of others (entanglement).
+RA (recovery agent)�In PKI, an account or combination of accounts that can copy a cryptographic key from backup or escrow and restore it to a subject host or user.
+RA (registration authority)�In PKI, an authority that accepts requests for digital certificates and authenticates the entities making those requests.
+race condition�A software vulnerability when the resulting outcome from execution processes is directly dependent on the order and timing of certain events, and those events fail to execute in the order and timing intended by the developer.
+RADIUS (Remote Authentication Dial-in User Service)�A standard protocol used to manage remote and wireless authentication infrastructures.
+RAID (redundant array of independent/ inexpensive disks)�Specifications that support redundancy and fault tolerance for different configurations of multiple-device storage systems. rainbow table Tool for speeding up attacks against Windows passwords by precomputing possible hashes.
+ransomware�Malware that tries to extort money from the victim by blocking normal operation of a computer and/or encrypting the victim�s files and demanding payment.
+Raspberry Pi�Open-source platform producing programmable circuit boards for education and industrial prototyping.
+RAT (remote access Trojan)�Malware that creates a backdoor remote administration channel to allow a threat actor to access and control the infected host.
+RBAC (role-based access control)�An access control model where resources are protected by ACLs that are managed by administrators and that provide user permissions based on job functions.
+RCS (rich communication services)�Platform-independent advanced messaging functionality designed to replace SMS and MMS.
+red team�The "hostile" or attacking team in a penetration test or incident response exercise. regex (regular expression) A group of characters that describe how to execute a specific search pattern on a given text.
+replay attack�An attack where the attacker intercepts some authentication data and reuses it to try to re-establish a session.
+replication�Automatically copying data between two processing systems either simultaneously on both systems (synchronous) or from a primary to a secondary location (asynchronous).
+residual risk�Risk that remains even after controls are put into place.
+retention policy�Dictates for how long information needs to be kept available on backup and archive systems. This may be subject to legislative requirements.
+reverse proxy�A type of proxy server that protects servers from direct contact with client requests.
+reverse shell�A maliciously spawned remote command shell where the victim host opens the connection to the attacking host.
+risk acceptance�The response of determining that a risk is within the organization's appetite and no countermeasures other than ongoing monitoring is needed.
+risk avoidance�In risk mitigation, the practice of ceasing activity that presents risk.
+risk deterrence�In risk mitigation, the response of deploying security controls to reduce the likelihood and/or impact of a threat scenario. Also known as risk reduction.
+risk matrix/heat map�A graphical table indicating the likelihood and impact of risk factors identified for a workflow, project, or department for reference by stakeholders.
+risk mitigation�The response of reducing risk to fit within an organization's risk appetite.
+risk register�A document highlighting the results of risk assessments in an easily comprehensible format (such as a "traffic light" grid). Its purpose is for department managers and technicians to understand risks associated with the workflows that they manage.
+risk transference�In risk mitigation, the response of moving or sharing the responsibility of risk to another entity, such as by purchasing cybersecurity insurance.
+risk-based framework�In ESA, a framework that uses risk assessment to prioritize security control selection and investment.
+robot sentry�A remote-controlled or autonomous robot capable of patrolling site premises or monitoring gateways.
+root CA (root certificate authority)�In PKI, a CA that issues certificates to intermediate CAs in a hierarchical structure.
+rootkit�A class of malware that modifies system files, often at the kernel level, to conceal its presence.
+router firewall�A hardware device that has the primary function of a router, but also has firewall functionality embedded into the router firmware.
+routing protocols�Rules that govern how routers communicate and forward traffic between networks.
+RPO (recovery point objective)�The longest period of time that an organization can tolerate lost data being unrecoverable.
+RSA (Rivest Shamir Adelman)�Named for its designers, Ronald Rivest, Adi Shamir, and Len Adelman, the first successful algorithm for public key encryption with a variable key length and block size.
+RTBH (remote triggered black hole)�Using a trigger device to send a BGP route update that instructs routers to drop traffic that is suspected of attempting DDoS.
+RTO (recovery time objective)�The length of time it takes after an event to resume normal business operations and activities.
+RTOS (real-time operating system)�A type of OS that prioritizes deterministic execution of operations to ensure consistent response for time-critical tasks.
+RTP (Real-time Transport Protocol)�Opens a data stream for video and voice applications over UDP. The data is packetized and tagged with control information (sequence numbering and time-stamping).
+rule-based access control�A non-discretionary access control technique that is based on a set of operational rules or restrictions to enforce a least privileges permissions policy.
+runbook�An automated version of a playbook that leaves clearly defined interaction points for human analysis.
+S/MIME (Secure/Multipurpose Internet Mail Extensions)�An email encryption standard that adds digital signatures and public key cryptography to traditional MIME communications.
+SaaS (Software as a Service)�A computing method that uses the cloud to provide application services to users.
+SAE (Simultaneous Authentication of Equals)�Personal authentication mechanism for Wi-Fi networks introduced with WPA3 to address vulnerabilities in the WPA-PSK method.
+salt�A security countermeasure that mitigates the impact of a rainbow table attack by adding a random value to ("salting") each plaintext input.
+SAML (Security Assertion Markup Language)�An XML-based data format used to exchange authentication information between a client and a service.
+SAN (subject alternative name)�Field in a digital certificate allowing a host to be identified by multiple host names/subdomains.
+sandbox�A computing environment that is isolated from a host system to guarantee that the environment runs in a controlled, secure fashion. Communication links between the sandbox and the host are usually completely prohibited.
+sanitization�The process of thorough and completely removing data from a storage medium so that file remnants cannot be recovered.
+SAS (Serial Attached Small Computer Systems Interface)�Developed from parallel SCSI, SAS represents the highest performing hard disk interface available.
+SCADA (Supervisory Control and Data Acquisition)�A type of industrial control system that manages large-scale, multiple-site devices and equipment spread over geographically large areas.
+scalability�The property by which a computing environment is able to gracefully fulfill its ever-increasing resource needs.
+scanless�Utility that runs port scans through third-party websites to evade detection.
+SCAP (Security Content Automation Protocol)�A NIST framework that outlines various accepted practices for automating vulnerability scanning.
+screened host�A dual-homed proxy/gateway server used to provide Internet access to other network nodes, while�protecting them from external attack.
+script kiddie�An inexperienced, unskilled attacker that typically uses tools or scripts created by others.
+SDK (software development kit)�Coding resources provided by a vendor to assist with development projects that use their platform or API.
+SDN (software defined networking)�APIs and compatible hardware/virtual appliances allowing for programmable network appliances and systems.
+SDV (software defined visibility)�APIs for reporting configuration and state data for automated monitoring and alerting.
+SE (secure erase)�A method of sanitizing a drive using the ATA command set.
+SEAndroid (Security-Enhanced Android)�Since version 4.3, Android has been based on Security-Enhanced Linux, enabling granular permissions for apps, container isolation, and storage segmentation.
+SECaaS (Security as a Service)�A computing method that enables clients to take advantage of information, software, infrastructure, and processes provided by a cloud vendor in the specific area of computer security.
+secure boot�A UEFI feature that prevents unwanted processes from executing during the boot operation.
+security control�A technology or procedure put in place to mitigate vulnerabilities and risk and to ensure the confidentiality, integrity, and availability (CIA) of information.
+SED (self-encrypting drive)�A disk drive where the controller can automatically encrypt data that is written to it.
+segment�A portion of a network where all attached hosts can communicate freely with one another.
+SEH (structured exception handler)�A mechanism to account for unexpected error conditions that might arise during code execution. Effective error handling reduces the chances that a program could be exploited.
+self-signed certificate�A digital certificate that has been signed by the entity that issued it, rather than by a CA.
+sentiment analysis�Devising an AI/ML algorithm that can describe or classify the intention expressed in natural language statements.
+separation of duties�A concept that states that duties and responsibilities should be divided among individuals to prevent ethical conflicts or abuse of powers.
+server certificate�A digital certificate that guarantees the identity of e-commerce sites and other websites that gather and store confidential information.
+serverless�A software architecture that runs functions within virtualized runtime containers in a cloud rather than on dedicated server instances.
+server-side�In a web application, input data that is executed or validated as part of a script or process running on the server.
+service account�A host or network account that is designed to run a background service, rather than to log on interactively.
+session affinity�A scheduling approach used by load balancers to route traffic to devices that have already established connections with the client in question. Also known as source IP affinity.
+session hijacking�A type of spoofing attack where the attacker disconnects a host then replaces it with his or her own machine, spoofing the original host's IP address. sflow Web standard for using sampling to record network traffic statistics.
+SFTP (Secure File Transfer Protocol)�A secure version of the File Transfer Protocol that uses a Secure Shell (SSH) tunnel as an encryption method to transfer, access, and manage files.
+SHA (Secure Hash Algorithm)�A cryptographic hashing algorithm created to address possible weaknesses in MDA. The current version is SHA-2.
+shadow IT�Computer hardware, software, or services used on a private network without authorization from the system owner.
+shared account�An account with no credential (guest) or one where the credential is known to multiple persons.
+shellcode�Lightweight block of malicious code that exploits a software vulnerability to gain initial access to a victim system.
+shimming�The process of developing and implementing additional code between an application and the operating system to enable functionality that would otherwise be unavailable.
+shoulder surfing�A social engineering tactic to obtain someone's password or PIN by observing him or her as he or she types it in.
+SID (security identifier)�The value assigned to an account by Windows and that is used by the operating system to identify that account.
+SIEM (security information and event management)�A solution that provides real-time or near-real-time analysis of security alerts generated by network hardware and applications.
+signature-based detection�A network monitoring system that uses a predefined set of rules provided by a software vendor or security personnel to identify events that are unacceptable.
+SIM (subscriber identity module)�A small chip card that identifies the user and phone number of a mobile device, via an International Mobile Subscriber Identity (ISMI).�
+sinkhole�A DoS attack mitigation strategy that directs the traffic that is flooding a target IP address to a different network for analysis.
+SIP (Session Initiation Protocol)�Used to establish, disestablish, and manage VoIP and conferencing communications sessions. It handles user discovery (locating a user on the network), availability advertising (whether a user is prepared to receive calls), negotiating session parameters (such as use of audio/ video), and session management and termination.
+SLA (service level agreement)�Operating procedures and standards for a service contract.
+SLE (single loss expectancy)�The amount that would be lost in a single occurrence of a particular risk factor.
+smart card�A device similar to a credit card that can store authentication information, such as a user's private key, on an embedded microchip.
+smart meter�A utility meter that can submit readings to the supplier without user intervention.
+SMiShing�A form of phishing that uses SMS text messages to trick a victim into revealing information.
+sn1per�Software utility designed for penetration testing reporting and evidence gathering that can also run automated test suites.
+SNMP (Simple Network Management Protocol)�Protocol for monitoring and managing network devices. SNMP works over UDP ports 161 and 162 by default.
+SOA (service-oriented architecture)�A software architecture where components of the solution are conceived as loosely coupled services not dependent on a single platform type or technology.
+SOAP (Simple Object Access Protocol)�An XML-based web services protocol that is used to exchange messages.
+SOAR (security orchestration, automation, and response)�A class of security tools that facilitates incident response, threat hunting, and security configuration by orchestrating automated runbooks and delivering data enrichment.
+SoC (system-on-chip)�A processor that integrates the platform functionality of multiple logical controllers onto a single chip.
+spear phishing�An email-based or web-based form of phishing which targets specific individuals.
+SPIM (spam over internet messaging)�A spam attack that is propagated through instant messaging rather than email.
+split tunnel�VPN configuration where only traffic for the private network is routed via the VPN gateway.
+SPoF (single point of failure)�A component or system that would cause a complete interruption of a service if it failed.�
+SQL injection (Structured Query Language injection)�An attack that injects a database query into the input data directed at a server by accessing the client side of the application.
+SSAE SOC (Statements on Standards for Attestation Engagements Service Organization Control)�Audit specifications designed to ensure that cloud/hosting providers meet professional standards. A SOC2 Type II report is created for a restricted audience, while SOC3 reports are provided for general consumption.
+SSH (Secure Shell)�A remote administration and file-copy program that supports VPNs by using port forwarding, and that runs on TCP port 22.
+SSID (service set identifier)�A character string that identifies a particular wireless LAN (WLAN).
+SSO (single sign-on)�An authentication technology that enables a user to authenticate once and receive authorizations for multiple services.
+SSTP (Secure Socket Tunneling Protocol)�A protocol that uses the HTTP over SSL protocol and encapsulates an IP packet with a PPP header and then with an SSTP header.
+standard naming convention�Applying consistent names and labels to assets and digital resources/identities within a configuration management system.
+stapling�Mechanism used to mitigate performance and privacy issues when requesting certificate status from an OCSP responder.
+state actor�A type of threat actor that is supported by the resources of its host country's military and security services. Also known as nation state actor.
+state table�Information about sessions between hosts that is gathered by a stateful firewall.
+stateful inspection�A technique used in firewalls to analyze packets down to the application layer rather than filtering packets only by header information, enabling the firewall to enforce tighter and more security.
+steganography�A technique for obscuring the presence of a message, often by embedding information within a file or other entity.
+STIX (Structured Threat Information eXpression)�A framework for analyzing cybersecurity incidents.
+stored procedure�One of a set of pre-compiled database statements that can be used to validate input to a database.
+STP (Spanning Tree Protocol)�A switching protocol that prevents network loops by dynamically disabling links as needed.
+stream cipher�A type of symmetric encryption that combines a stream of plaintext bits or bytes with a pseudorandom stream initialized by a secret key.
+stress test�A software testing method that evaluates how software performs under extreme load.
+supplicant�In EAP architecture, the device requesting access to the network.
+SWG (secure web gateway)�An appliance or proxy server that mediates client connections with the Internet by filtering spam and malware and enforcing access restrictions on types of sites visited, time spent, and bandwidth consumed.
+symmetric encryption�A two-way encryption scheme in which encryption and decryption are both performed by the same key. Also known as shared-key encryption.
+syslog�A protocol enabling different appliances and software applications to transmit logs or event records to a central server.
+TACACS+ (Terminal Access Controller Access Control System Plus)�An AAA protocol developed by Cisco that is often used to authenticate to administrator accounts for network appliance management.�
+tail command�Linux utility for showing the last lines in a file.
+tailgating�Social engineering technique to gain access to a building by following someone who is unaware of their presence.
+TAP (test access port)�A hardware device inserted into a cable to copy frames for analysis.
+tape�Tape media provides robust, high-speed, high-capacity backup storage. Tape drives and autoloader libraries can be connected to the SATA and SAS buses or accessed via a SAN.
+TAXII (Trusted Automated eXchange of Indicator Information)�A protocol for supplying codified information to automate incident detection and analysis.
+tcpdump command�A command-line packet sniffing utility.
+tcpreplay command�A command-line utility that replays packets saved to a file back through a network adapter.
+technical control�A category of security control that is implemented as a system (hardware, software, or firmware). Technical controls may also be described as logical controls.
+tethering�Using the cellular data plan of a mobile device to provide Internet access to a laptop or PC. The PC can be tethered to the mobile by USB, Bluetooth, or Wi-Fi (a mobile hotspot). Also known as hotspot.
+theHarvester�Utility for gathering results from open source intelligence queries.
+thin AP�An access point that requires a wireless controller in order to function.
+third-party risks�Vulnerabilities that arise from dependencies in business relationships with suppliers and customers.
+threat actor�The person or entity responsible for an event that has been identified as a security incident or as a risk.
+threat hunting�Cybersecurity technique designed to detect presence of threats that have not been discovered by normal security monitoring.
+threat map�Animated map showing threat sources in near real-time.
+time of day restrictions�Policies or configuration settings that limit a user's access to resources.
+time offset�In forensics, identifying whether a time zone offset has been applied to a file's time stamp.
+timeline�In digital forensics, a tool that shows the sequence of file system events within a source image in a graphical format.
+TKIP (Temporal Key Integrity Protocol)�A mechanism used in the first version of WPA to improve the security of wireless encryption mechanisms, compared to the flawed WEP standard.
+TLS (Transport Layer Security)�A security protocol that uses certificates for authentication and encryption to protect web communication.
+TOCTTOU (time of check to time of use)�The potential vulnerability that occurs when there is a change between when an app checked a resource and when the app used the resource.
+token�A physical or virtual item that contains authentication and/or authorization data, commonly used in multifactor authentication.
+tokenization�A deidentification method where a unique token is substituted for real data.
+TOTP (Time-based One-time Password)�An improvement on HOTP that forces one-time passwords to expire after a short period of time.
+TPM (Trusted Platform Module)�A specification for hardware-based storage of digital certificates, keys, hashed passwords, and other user and platform identification information.�transit gateway In cloud computing, a virtual router deployed to facilitate connections between VPC subnets and VPN gateways.
+trend analysis�The process of detecting patterns within a dataset over time, and using those patterns to make predictions about future events or better understand past events.
+Trojan�A malicious software program hidden within an innocuous-seeming piece of software. Usually, the Trojan is used to try to compromise the security of the target computer. Also known as Trojan.
+TTP (tactics, techniques, and procedures)�Analysis of historical cyber-attacks and adversary actions.
+typosquatting�An attack�also called typosquatting�in which an attacker registers a domain name with a common misspelling of an existing domain, so that a user who misspells a URL they enter into a browser is taken to the attacker's website. Also known as URL hijacking.
+UEBA (user and entity behavior analytics)�A system that can provide automated identification of suspicious activity by user accounts and computer hosts.
+UEM (unified endpoint management)�Enterprise software for controlling device settings, apps, and corporate data storage on all types of fixed, mobile, and IoT computing devices.
+USB data blocker (Universal Serial Bus data blocker)�Hardware plug to prevent malicious data transfer when a device is plugged into a USB charging point.
+UTM (unified threat management)�All-in-one security appliances and agents that combine the functions of a firewall, malware scanner, intrusion detection, vulnerability scanner, data loss prevention, content filtering, and so on.
+vault�A secure room with walls and gateway hardened against physical assault.
+VBA (Visual Basic for Applications)�Programming languages used to implement macros and scripting in Office document automation.
+VDE (virtual desktop environment)�The user desktop and software applications provisioned as an instance under VDI.
+VDI (virtual desktop infrastructure)�A virtualization implementation that separates the personal computing environment from a user's physical computer.
+vendor management�Policies and procedures to identify vulnerabilities and ensure security of the supply chain.
+virus�Code designed to infect computer files (or disks) when it is activated.
+vishing�A human-based attack where the attacker extracts information while speaking over the phone or leveraging IP-based voice messaging services (VoIP).
+VLAN (virtual local area network)�A logically separate network, created by using switching technology. Even though hosts on two VLANs may be physically connected to the same cabling, local traffic is isolated to each VLAN so they must use a router to communicate.
+VM escaping (virtual machine escaping)�An attack where malware running in a VM is able to interact directly with the hypervisor or host kernel.
+VM sprawl (virtual machine sprawl)�Configuration vulnerability where provisioning and deprovisioning of virtual assets is not properly authorized and monitored.
+VPC (virtual private cloud)�A private network segment made available to a single cloud consumer on a public cloud.
+VPN (virtual private network)�A secure tunnel created between two endpoints connected via an unsecure network (typically the Internet).
+vulnerability�A weakness that could be triggered accidentally or exploited intentionally to cause a security breach.
+vulnerability assessment�An evaluation of a system's security and ability to meet compliance requirements based on the configuration state of the system, as represented by information collected from the system.
+WAF (web application firewall)�A firewall designed specifically to protect software running on web servers and their back-end databases from code injection and DoS attacks.
+war driving�The practice of using a Wi-Fi sniffer to detect WLANs and then either making use of them (if they are open/unsecured) or trying to break into them (using WEP and WPA cracking tools).
+warm site�A location that is dormant or performs noncritical functions under normal conditions, but which can be rapidly converted to a key operations site if needed.
+watering hole attack�An attack in which an attacker targets specific groups or organizations, discovers which websites they frequent, and injects malicious code into those sites.
+WEP (Wired Equivalent Privacy)�A legacy mechanism for encrypting data sent over a wireless connection.
+whaling�An email-based or web-based form of phishing which targets senior executives or wealthy individuals.
+white team�Staff administering, evaluating, and supervising a penetration test or incident response exercise.
+WinHex�Forensics tool for Windows that allows collection and inspection of binary code in disk and memory images.
+worm�A type of malware that replicates in system memory and can spread over network connections rather than infecting files.
+WPA (Wi-Fi Protected Access)�Standards for authenticating and encrypting access to Wi-Fi networks. Also known as WPA2, WPA3.
+WPS (Wi-Fi Protected Setup)�A feature of WPA and WPA2 that allows enrollment in a wireless network based on an 8-digit PIN.
+XaaS (anything as a service)�Expressing the concept that most types of IT requirements can be deployed as a cloud service model.
+XML injection�Attack method where malicious XML is passed as input to exploit a vulnerability in the target app.
+XOR (exclusive OR)�An operation that outputs to true only if one input is true and the other input is false.
+XSRF (cross-site request forgery)�A malicious script hosted on the attacker's site that can exploit a session started on another site in the same browser. Also known as client-side request forgery or CSRF.
+XSS (cross-site scripting)�A malicious script hosted on the attacker's site or coded in a link injected onto a trusted site designed to compromise clients browsing the trusted site, circumventing the browser's security model of trusted zones.
+zero trust�Security design paradigm where any request (host-to-host or container-to-container) must be authenticated before being allowed.
+zero-day�A vulnerability in software that is unpatched by the developer or an attack that exploits such a vulnerability.
+zero-fill�A method of sanitizing a drive by setting all bits to zero.
+ZigBee�Low-power wireless communications open source protocol used primarily for home automation. ZigBee uses radio frequencies in the 2.4 GHz band and a mesh topology.
+Z-Wave�Low-power wireless communications protocol used primarily for home automation. Z-Wave uses radio frequencies in the high 800 to low 900 MHz and a mesh topology.
+
